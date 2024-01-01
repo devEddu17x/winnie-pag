@@ -114,3 +114,43 @@ body{
     border-radius: 6px;
 }
 
+.about{
+    background-color: var(--background);
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 280px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+    background-color: bisque;
+    /* futura sombra */
+    /* box-shadow: ; */
+    border-radius: 50%;
+}
+
+.about-texts{
+    text-align: center;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.paragraph{
+    line-height: 1.5;
+    font-weight: 300;
+}
+
