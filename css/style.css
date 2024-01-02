@@ -242,3 +242,42 @@ body{
     border-radius: 6px;
     font-weight: 700;
 }
+
+.footer{
+    background-color: var(--background);
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.footer-link {
+    background-color: var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.footer-item:nth-of-type(1) {
+    --color: #1da1f2;
+}
+
+.footer-item:nth-of-type(2) {
+    --color: #c32aa3;
+}
+
+.footer-item:nth-of-type(3) {
+    --color: #ff0000;
+}
+
+.footer-img {
+    width: 28px;
+}
