@@ -154,3 +154,27 @@ body{
     font-weight: 300;
 }
 
+/* foods */
+
+.foods-articles{
+    margin-top: 3rem;
+    display: grid;
+    gap: 3rem;
+}
+
+.foods-article{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.foods-img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    background-color: thistle;
+    /* falta la sombra */
+}
