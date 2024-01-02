@@ -281,3 +281,147 @@ body{
 .footer-img {
     width: 28px;
 }
+
+@media (min-width:768px) {
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-list {
+        position: static;
+        background-color: transparent;
+        padding: 0;
+
+        display: flex;
+        gap: 2rem;
+
+        list-style: none;
+
+        transform: unset;
+        transition: none;
+    }
+
+    .nav-list-show {
+        transform: unset;
+    }
+
+    .nav-link {
+        color: var(--blue);
+    }
+
+    .app-main {
+        flex-direction: row;
+        gap: 40px;
+        min-height: 550px;
+        align-items: center;
+    }
+
+    .app-figure {
+        order: 0;
+        padding: 0;
+        width: 46%;
+    }
+
+    .app-img {
+        max-width: 450px;
+    }
+
+    .app-texts {
+        width: 54%;
+        text-align: start;
+        gap: 2rem;
+        padding-bottom: 0;
+    }
+
+    .app-title {
+        font-size: 3rem;
+    }
+
+    .app-paragraph {
+        margin-bottom: 0;
+    }
+
+    .app-cta {
+        justify-self: start;
+    }
+
+
+    .about-container {
+        flex-direction: row;
+        gap: 2rem;
+
+    }
+
+    .about-figure{
+        width: 30%;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-texts {
+        width: 70%;
+        text-align: start;
+        place-content: center;
+    }
+
+    .subtitle {
+        text-align: inherit;
+        font-size: 2.5rem;
+    }
+
+
+    .foods{
+        text-align: center;
+    }
+
+    .foods-articles {
+        gap: 2rem;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+
+    .foods-article {
+        gap: 1.5rem;
+    }
+
+    .activity {
+        text-align: start;
+    }
+
+    .activity-main{
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .activity-figure{
+        width: 45%;
+    }
+    
+    .activity-img {
+        max-width: 400px;
+    }
+    
+    .activity-texts {
+        width: 55%;
+        place-content: center;
+        margin-bottom: 0;
+    }
+    
+    .activity-cta {
+        justify-self: start;
+    }
+    
+    .curiosities-title {
+        font-size: 4.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+
+}
