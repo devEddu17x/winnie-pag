@@ -178,3 +178,33 @@ body{
     background-color: thistle;
     /* falta la sombra */
 }
+
+/* activity */
+
+.activity{
+    background-color: var(--background);
+    text-align: center;
+}
+
+.activity-img{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    display: block;
+}
+
+.activity-texts{
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.activity-cta{
+    background-color: var(--blue);
+    color: white;
+    padding: 1em 3em;
+    text-decoration: none;
+    justify-self: center;
+    border-radius: 6px;
+    font-weight: 700;
+}
