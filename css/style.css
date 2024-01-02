@@ -208,3 +208,37 @@ body{
     border-radius: 6px;
     font-weight: 700;
 }
+
+.curiosities{
+    background-image: linear-gradient(#19181bc0, #171719e3), url(../assets/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.curiosities-container{
+    display: grid;
+    gap: 2.5rem;
+}
+
+.curiosities-item{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.curiosities-title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.curiosities-cta{
+    text-decoration: none;
+    color: white;
+    background-color: var(--orange);
+    padding: 1rem 3rem;
+    justify-self: center;
+    border-radius: 6px;
+    font-weight: 700;
+}
